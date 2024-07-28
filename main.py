@@ -47,19 +47,19 @@ bot_adi = ""
 if hex(getnode()) in ["0xdc7b23bb434e"]: #windows masaüstü pc ise veya laptop
     #kaç yaşındasın bot
     print("kyb")
-    bot_adi = "BAKUgamebot"
-    bot_token = "5933842973:AAF7qorlBftInp_z0hvNEcWpnhMvG6ImfAA"
+    bot_adi = "NezrinMafiaBot"
+    bot_token = "7351555728:AAGCPqgaw7V26cSUER9qQyt_Q7gBDhhhy2Y"
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 else:
     #sıl octopus bot
-    bot_adi = "BAKUgamebot"
-    bot_token = "5933842973:AAF7qorlBftInp_z0hvNEcWpnhMvG6ImfAA"
+    bot_adi = "NezrinMafiaBot"
+    bot_token = "7351555728:AAGCPqgaw7V26cSUER9qQyt_Q7gBDhhhy2Y"
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 
 temp = {}
 
 
-kurucu_id = 5237976814
+kurucu_id = 6634423600
 
 admins = [kurucu_id, 5237976814]
 
